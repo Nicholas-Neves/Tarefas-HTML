@@ -1,0 +1,128 @@
+main{
+    position: relative;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    background-color: palevioletred;
+    color: black;
+    font-family: verdana;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: lime;
+}
+
+#cc{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixa{
+    position: relative;
+    width: 500px;
+    height: 130px;
+    background-color: burlywood;
+    margin: auto;
+}
+
+#cc1{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.c1{
+    position: relative;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+
+#cc2{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+}
+
+#cc3{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.c2{
+    position: relative;
+    width: 500px;
+    height: 180px;
+    background-color: midnightblue;
+    margin: auto;
+    display: flex;
+
+}
+
+.c3{
+    position: relative;
+    width: 500px;
+    height: 180px;
+    background-color: aquamarine;
+    margin: auto;
+    display: flex;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+
+
+@media only screen and (max-width:480px) {
+
+main {
+    width: 100%;
+}
+
+#cc,
+#cc1,
+#cc2,
+#cc3 {
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+.c,
+.c2,
+.c3 {
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+}
+
+}
