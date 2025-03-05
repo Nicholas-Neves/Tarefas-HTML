@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+#container{
+    background: url(../img/guitarra_fundo_body.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+}
+
+
+header{
+    position: relative;
+    width: 80%;
+    height: 200px;
+    bottom: 10px;
+    margin-left: 100px;
+    
+}
+#btn {
+    position: relative;
+    width: 40%;
+    height: 30px;
+    background-color: #fff;
+    top: -50px;
+    flex-direction: row;
+    align-items: center;
+    left: 55%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#btn a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-family: Verdana;
+    margin-left: 15px;
+    
+}
+
+header img{
+    width: 100%;
+    height: 100%;
+}
+#segundo{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.q1{
+    position: relative;
+    width: 45%;
+    height: 300px;
+    background-color: indianred;
+    float: left;
+    padding: 40px;
+    
+}
+.q1 h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    padding: 12px;
+
+}
+.q1 p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+    padding: 15px;
+}
+.q2{
+    position: relative;
+    width: 45%;
+    height: 300px;
+    float: left;
+    padding: 40px;
+}
+.q2 img{
+    width: 100%;
+    height: 100%;
+}
+#terceiro{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    background-color:#fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.caixinha{
+    position: relative;
+    width: 20%;
+    height: auto;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+}
+.caixinha img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+h3{
+    font-size: 12px;
+    font-weight: lighter;
+}
+p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 3px;
+    color: red;
+
+}
+#quarto{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    background-color: chocolate;
+    margin-top: 10px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.caixa3{
+    background: url(../imagens/maps.jpeg);
+    width: 45%;
+    height: 350px;
+    border-radius:8px;
+}
+.caixa4{
+    width: 45%;
+    height: 350px;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   align-items: stretch;
+}
+.caixa4 h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-top: 50px;
+    padding: 15px;
+
+}
+.caixa4 p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+    padding: 15px;
+   
+}
+#quinto{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+.caixa1{
+    position: relative;
+    width: 45%;
+    height: 340px;
+    float: left;
+    bottom: 10px;
+    padding: 10px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.caixa2 {
+    position: relative;
+    width: 45%;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 0 10px;
+}
+
+.caixa2 h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    
+}
+.icn{
+    width: 80%;
+    height: 110px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.icones img{
+    width: 25%;
+    height: 100%;
+}
+#rodape{
+    position: relative;
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+    color: #fff;
+    margin-left: 100px;
+    text-align: center;
+}
+#rodape h2{
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    
+    
+}
+#rodape p{
+    font-size: 10px;
+    font-weight: lighter;
+    color: #fff;
+    
+    
+}
+#rodape img{
+    width: 2%;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 15px; 
+}
